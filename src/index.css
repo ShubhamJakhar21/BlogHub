@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Make common interactive elements show a pointer cursor */
+:where(button, [role="button"], input[type="button"], input[type="submit"], a.button, .btn, .button, [data-clickable], .clickable) {
+	cursor: pointer;
+}
